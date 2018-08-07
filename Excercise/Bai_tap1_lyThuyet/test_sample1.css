@@ -1,0 +1,80 @@
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#container {
+    width: 500px;
+    border: 1px solid #0033FF;
+}
+
+#title {
+    height: 25px;
+    background: url(images/title_background.gif);
+    font-weight: bold;
+}
+
+#information {
+    height: 100px;
+}
+
+#information img {
+    float: left;
+    clear: none;
+}
+
+#information .information {
+    clear: right;
+    overflow: scroll;
+    height: 90px;
+}
+
+#facts {
+    font-weight: bold;
+}
+
+#list {
+    list-style-type: none;
+}
+
+#comment {
+    margin-top: 50px;
+}
+
+.message {
+    background: #ECECEC;
+    padding: 1px;
+    font-size: 14px;
+}
+
+.post img {
+    float: left;
+    clear: right;
+    padding-right: 12px;
+    margin-left: 8px;
+    margin-top: -1px;
+}
+
+.post {
+    margin-top: -1px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #0033FF;
+}
+
+#your_comment p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#textarea {
+    width: 99%;
+}

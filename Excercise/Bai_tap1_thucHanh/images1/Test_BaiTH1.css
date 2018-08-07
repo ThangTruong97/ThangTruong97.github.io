@@ -1,0 +1,97 @@
+#header {
+    background-color: #2D2F35;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #2D2F35;
+    font-size: 12px;
+}
+
+h3 {
+    color: yellow;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    width: 100%;
+}
+
+#product_section {
+    padding-left: 120px;
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+    overflow: auto;
+    background-image: url("F:/HTML/images1/home_intro_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#product_section p {
+    margin-top: 50px;
+    margin-bottom: 48px;
+    width: 30%;
+}
+
+#image_section {
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+    overflow: auto;
+    padding-left: 120px;
+}
+
+.item {
+    float: left;
+    clear: right;
+    margin: 15px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#information_section {
+    overflow: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+    text-align: justify;
+    width: 80%;
+    padding: 0 10%;
+}
+
+#left {
+    width: 40%;
+    float: left;
+    clear: none;
+    background: url("F:/HTML/images1/home_services_bg_design.gif") right bottom no-repeat;
+    z-index: 1000;
+    padding-bottom: 5px;
+}
+
+#right {
+    width: 40%;
+    float: right;
+    clear: none;
+    background: url("F:/HTML/images1/home_services_bg_marketing.gif") left top no-repeat;
+}
+
+#right p {
+    margin-top: 60px;
+}
+
+#footer_section {
+    text-align: center;
+    height: 80px;
+    background: url("F:/HTML/images1/bg_footer.gif") no-repeat;
+    background-size: 100% 100%;
+}
