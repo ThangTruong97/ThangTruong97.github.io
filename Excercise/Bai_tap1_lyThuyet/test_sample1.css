@@ -14,7 +14,7 @@ body {
 
 #title {
     height: 25px;
-    background: url(images/title_background.gif);
+    background: url("images/title_background.gif");
     font-weight: bold;
 }
 
@@ -73,6 +73,11 @@ a {
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
+}
+
+.table_item p {
+    font-size: 14px;
+    width: 100px;
 }
 
 #textarea {
