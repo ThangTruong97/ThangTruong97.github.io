@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #0a6395;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#container {
+    font-size: 11px;
+    background: rgba(95, 158, 160, 0.205);
+    width: 30%;
+}
+
+#blogroll_block {
+    background: #ffffff;
+    border-top: 2px solid #ffa500;
+    overflow: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#blogroll_block img {
+    float: left;
+    clear: none;
+    margin: 1px;
+    border: 1px solid #cccccc;
+}
+
+.information {
+    clear: right;
+    overflow: auto;
+    height: 100%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+#list_block {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item {
+    background: rgba(255, 166, 0, 0.473);
+    margin-bottom: 2px;
+}
+
+#horoscopes_block {
+    background: #ffffff;
+    overflow: auto;
+    border-top: 2px solid #ffa500;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#horoscopes_block img {
+    float: left;
+    clear: none;
+    padding: 5px;
+}
+
+#time {
+    color: #808080;
+    padding-bottom: 5px;
+}
+
+#top_block {
+    overflow: auto;
+}
+
+#powered_block {
+    background: #f4f4ec;
+    overflow: auto;
+}
+
+#powered_block img {
+    float: right;
+    clear: none;
+    padding: 5px;
+}
+
+.information1 {
+    float: left;
+    overflow: auto;
+    height: 100%;
+    margin: auto;
+    padding: 30px;
+    width: 38%;
+    margin-bottom: 15px;
+}
+
+#news_block {
+    border-top: 2px solid #ffa500;
+    background: #ffffff;
+    overflow: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#news_block img {
+    float: right;
+    clear: none;
+    padding: 5px;
+}
+
+#competitions_block {
+    border-top: 1px solid #cccccc;
+    padding-top: 1px;
+    overflow: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: -5px;
+}
+
+#information3 {
+    clear: right;
+    overflow: auto;
+    height: 100%;
+    background: #ffffff;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dadada;
+}
