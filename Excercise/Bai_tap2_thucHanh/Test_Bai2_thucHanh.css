@@ -1,0 +1,267 @@
+h3,
+p {
+    padding-left: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: hsla(0, 0%, 0%, 0.836);
+}
+
+a {
+    color: #1F7BCE;
+}
+
+#container {
+    position: relative;
+}
+
+#left-block {
+    float: left;
+    width: 50%;
+}
+
+#right-block {
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    float: right;
+}
+
+#pre-footer {
+    float: left;
+    width: 100%;
+    border-top: 1px dashed white;
+    margin-top: 25px;
+    overflow: auto;
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    background: white;
+    text-align: center;
+    position: relative;
+}
+
+#confidental {
+    width: 100%;
+}
+
+#showbuzz {
+    float: left;
+    width: 50%;
+    clear: none;
+    overflow: auto;
+    margin-right: -1px;
+    background: white;
+    padding-bottom: 1px;
+}
+
+#showbuzz img {
+    width: 100%;
+}
+
+#shooting-star {
+    float: right;
+    width: 50%;
+    overflow: auto;
+    margin-left: -2px;
+    border-left: 1px dashed black;
+    background: white;
+    padding-bottom: 6px;
+}
+
+#shooting-star img {
+    width: 100%;
+}
+
+.headline {
+    color: white;
+    background-image: url("images2/h2-confidential-heading-bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#movie-trailer {
+    float: left;
+    clear: none;
+    overflow: auto;
+    width: 45%;
+    background: white;
+    margin-top: 25px;
+}
+
+.icon-catalog {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-image: url("images2/top-movie-trailers-arrows.gif");
+}
+
+.ic-1 {
+    background-position: 0 0;
+}
+
+.ic-2 {
+    background-position: 0 -22px;
+}
+
+#movie-review {
+    float: right;
+    overflow: auto;
+    width: 50%;
+    background: white;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+.review-vote {
+    width: 59px;
+    height: 16px;
+    position: absolute;
+    top: -10px;
+    left: 245px;
+    background-image: url("images2/topic-star-ratings.gif");
+}
+
+.vote1 {
+    background-position: 0 96px;
+    margin-top: 10px;
+}
+
+.vote2 {
+    background-position: 0 112px;
+    margin-top: 10px;
+}
+
+.title {
+    background-image: url("images2/h2-top-movie-trailers-bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.list1 {
+    position: relative;
+    overflow: auto;
+    background-image: url("images2/h3-movie-trailers-bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+
+.list1 img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#list2 {
+    overflow: auto;
+}
+
+#list2 img {
+    float: left;
+    clear: none;
+    overflow: auto;
+}
+
+#sub-list2 {
+    float: right;
+    overflow: auto;
+    width: 60%;
+}
+
+.movie-icon {
+    border-bottom: 1px dashed gray;
+}
+
+.movie-icon img {
+    size: 3px 3px;
+    margin-right: 5px;
+}
+
+#list3 {
+    overflow: auto;
+}
+
+.item-list3 {
+    float: left;
+    clear: right;
+    overflow: auto;
+    margin: 5px;
+}
+
+.item-list3 select {
+    margin-top: 15px;
+    width: 200px;
+}
+
+.list4 {
+    position: relative;
+    overflow: auto;
+}
+
+.list4 img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.list6 {
+    overflow: auto;
+}
+
+.list6 p {
+    float: right;
+    overflow: auto;
+    width: 60%;
+}
+
+#list7 {
+    position: relative;
+}
+
+#list7 p {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box p {
+    color: white;
+}
+
+#back-top {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#copyright {
+    color: #1F7BCE;
+}
+
+.button {
+    background: purple;
+    color: white;
+}
