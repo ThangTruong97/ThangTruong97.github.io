@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+p {
+    color: rgba(255, 255, 255, 0.507);
+}
+
+a {
+    color: rgba(255, 255, 255, 0.507);
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu-item {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+#container {
+    position: relative;
+}
+
+.menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 60%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+}
+
+#content {
+    width: 60%;
+}
+
+#title {
+    background-image: url("F:/HTML/images3/fill_header.jpg");
+    height: 180px;
+}
+
+#title h2 {
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#left-block {
+    margin-top: 70px;
+    float: left;
+    clear: none;
+    overflow: auto;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.185);
+    padding: 30px;
+    margin-left: 15px;
+}
+
+#left-block p {
+    border-top: 1px solid rgba(255, 255, 255, 0.507);
+    padding-top: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.507);
+    padding-bottom: 50px;
+}
+
+#list-block {
+    list-style-type: none;
+}
+
+#list-block img {
+    padding-right: 15px;
+}
+
+#right-block {
+    margin-top: 170px;
+    float: right;
+    clear: right;
+    overflow: auto;
+    width: 50%;
+}
+
+#footer {
+    border-top: 1px dashed rgba(255, 255, 255, 0.507);
+    float: left;
+    clear: both;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.launch-website {
+    border-top: 1px dashed rgba(255, 255, 255, 0.507);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.launch-website a {
+    color: white;
+    text-decoration: none
+}
