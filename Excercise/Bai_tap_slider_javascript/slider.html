@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Slider Excercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="slider.css" />
+</head>
+
+<body>
+    <h1>Slider</h1>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="images/image1.jpg" alt="Can't load image" title="Image1" />
+            <img src="images/image2.jpg" alt="Can't load image" title="Image2" />
+            <img src="images/image3.jpg" alt="Can't load image" title="Image3" />
+            <img src="images/image4.jpg" alt="Can't load image" title="Image4" />
+            <img src="images/image5.jpg" alt="Can't load image" title="Image5" />
+            <button type="button" onclick="getPrevImage()" class="btn" id="btnPrev">&lt;</button>
+            <button type="button" onclick="getNextImage()" class="btn" id="btnNext">&gt;</button>
+            <h1 id="slider-title">Image</h1>
+            <div id="circles">
+                <div class="item" id="item0" onclick="changeImage(0)"></div>
+                <div class="item" id="item1" onclick="changeImage(1)"></div>
+                <div class="item" id="item2" onclick="changeImage(2)"></div>
+                <div class="item" id="item3" onclick="changeImage(3)"></div>
+                <div class="item" id="item4" onclick="changeImage(4)"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="slider.js"></script>
+    <script>
+        var indexCurrent = 4; //The index of first image that appear in the slider
+        var loop = true; //Slider automatically repeat
+        var showButton = true; //Show button
+        var duration = 10000; // The time to wait for changing images
+        initSlider();
+    </script>
+</body>
+
+</html>
