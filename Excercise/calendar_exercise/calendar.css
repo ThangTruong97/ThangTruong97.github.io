@@ -1,0 +1,28 @@
+td {
+    padding: 10px;
+    border: 2px solid black;
+    width: 30px;
+    height: 5px;
+    text-align: center;
+}
+
+.select {
+    margin: 0px;
+    padding: 0px;
+}
+
+.select select {
+    height: 44px;
+}
+
+.select input {
+    height: 40px;
+}
+
+input {
+    height: 100%;
+}
+
+img {
+    border: none;
+}
