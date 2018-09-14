@@ -1,0 +1,51 @@
+@import url("library.meanmenu.css") screen and (min-width:0px) and (max-width: 998px);
+@media screen and (max-width: 1195px) {
+    div.footer-inner {
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    div.footer-block2 {
+        max-width: 260px;
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width:755px) {
+    div.header-inner {
+        text-align: center;
+    }
+    div.header-right {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    div.content-inner img.image-responsive {
+        display: block;
+        margin: 15px auto;
+    }
+    div.paragraph {
+        float: none;
+        margin: 0 auto;
+    }
+    div.box {
+        float: none;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    div.aside {
+        float: none;
+        margin: 0 auto;
+    }
+    div.footer-block1,
+    div.footer-block2,
+    div.footer-block3 {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
