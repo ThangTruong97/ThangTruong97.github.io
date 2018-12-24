@@ -1,0 +1,14 @@
+#control {
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: black;
+}
+
+#playround {
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: black;
+}
